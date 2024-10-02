@@ -1,0 +1,5 @@
+tools
+.idea
+generated
+*/*.png
+.git

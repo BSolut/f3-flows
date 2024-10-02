@@ -1,0 +1,17 @@
+@startuml
+
+start
+
+:Start;
+
+if (Is authenticated?) then (yes)
+  :Set session;
+else (no)
+  :Redirect to login;
+endif
+
+:End;
+
+stop
+
+@enduml
